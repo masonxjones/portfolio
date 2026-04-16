@@ -16,7 +16,7 @@
     <div class="glow-bg"></div>
 
     <header class="header">
-        <nav style="position: relative;">
+        <nav class="nav-container">
             <span id="nav-pill"></span>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -202,43 +202,43 @@
         </section>
 
         <section id="education" class="section reveal delay-3">
-            <h2 class="section-title" style="border: none; margin-bottom: 3rem;">Education</h2>
+            <h2 class="section-title education-title">Education</h2>
             
-            <div class="education-grid" style="display: grid; grid-template-columns: 35% 60%; gap: 5%; align-items: start; position: relative;">
+            <div class="education-grid">
                 
                 <!-- Left Column: University Name -->
-                <div class="edu-school" style="position: relative; padding-left: 1.5rem;">
+                <div class="edu-school">
                     <!-- Blue Dot -->
-                    <div style="position: absolute; left: 0; top: 8px; width: 8px; height: 8px; border-radius: 50%; background-color: var(--accent-color);"></div>
-                    <h3 style="font-family: var(--font-heading); font-size: 1.4rem; font-weight: 800; color: #222; line-height: 1.4;">
+                    <div class="edu-dot"></div>
+                    <h3>
                         University of California,<br>Los Angeles (UCLA)
                     </h3>
                 </div>
                 
                 <!-- Right Column: Degrees (Vertically Stacked) -->
-                <div class="edu-degrees" style="display: flex; flex-direction: column; gap: 2.5rem;">
+                <div class="edu-degrees">
                     
                     <!-- MS Degree -->
                     <div class="edu-degree">
-                        <img src="./assets/samueli-logo.png.png" alt="UCLA Samueli Logo" style="width: 100%; max-width: 280px; margin-bottom: 1.5rem; display: block; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.05));">
-                        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">
-                            <h4 style="font-size: 1.25rem; color: var(--accent-color); font-weight: 700;">M.S. Mechanical Engineering</h4>
-                            <span style="font-size: 0.95rem; color: var(--text-secondary); font-style: italic; white-space: nowrap;">June 2027</span>
+                        <img src="./assets/samueli-logo.png.png" alt="UCLA Samueli Logo" class="edu-logo">
+                        <div class="edu-degree-header">
+                            <h4>M.S. Mechanical Engineering</h4>
+                            <span class="edu-date">June 2027</span>
                         </div>
-                        <ul style="padding-left: 1.2rem; color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6;">
-                            <li style="margin-bottom: 0.8rem;">Specialized in Thermal and Fluid Systems (Advanced Heat Transfer, CFD, and Energy Systems).</li>
+                        <ul class="edu-details">
+                            <li>Specialized in Thermal and Fluid Systems (Advanced Heat Transfer, CFD, and Energy Systems).</li>
                         </ul>
                     </div>
                     
                     <!-- BS Degree -->
                     <div class="edu-degree">
-                        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">
-                            <h4 style="font-size: 1.25rem; color: var(--accent-color); font-weight: 700;">B.S. Mechanical Engineering</h4>
-                            <span style="font-size: 0.95rem; color: var(--text-secondary); font-style: italic; white-space: nowrap;">June 2026</span>
+                        <div class="edu-degree-header">
+                            <h4>B.S. Mechanical Engineering</h4>
+                            <span class="edu-date">June 2026</span>
                         </div>
-                        <ul style="padding-left: 1.2rem; color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6;">
-                            <li style="margin-bottom: 0.8rem;">GPA: 3.635/4.0 | Dean's List (2x) | True Bruin Distinguished Senior Award</li>
-                            <li style="margin-bottom: 0.8rem;">Technical Breadth: Electrical Engineering</li>
+                        <ul class="edu-details">
+                            <li>GPA: 3.635/4.0 | Dean's List (2x) | True Bruin Distinguished Senior Award</li>
+                            <li>Technical Breadth: Electrical Engineering</li>
                         </ul>
                     </div>
                     
