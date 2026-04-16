@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mason Jones - Mechanical Engineer</title>
+    <meta name="description" content="Portfolio of Mason Jones, Mechanical Engineer">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="grid-overlay"></div>
+    <div class="glow-bg"></div>
+
+    <header class="header">
+        <nav style="position: relative;">
+            <span id="nav-pill"></span>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-left">
+            <h2 class="hero-portfolio-text">Portfolio</h2>
+            <h1 class="hero-name">Mason Jones</h1>
+            <p class="hero-subtitle"><span id="hero-subtitle-typing"></span><span class="typing-cursor">|</span></p>
+
+            <div class="hero-socials">
+                <a href="mailto:masonleejones@gmail.com" target="_blank" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+                <a href="https://linkedin.com/in/mason-jones-ucla/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="hero-right">
+            <div class="hero-portrait-wrapper">
+                <img src="./assets/IMG_9653.jpeg" alt="Mason Jones Portrait" class="hero-portrait">
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section id="about" class="section reveal about-layout">
+            <div class="about-left">
+                <h2 class="about-title">About Me</h2>
+                <img src="./assets/hero-photo.jpeg" alt="Mason Jones" class="about-portrait">
+            </div>
+            
+            <div class="about-right">
+                <p class="narrative-text">
+                    Hi! My name is <strong>Mason Jones</strong> and I am a mechanical engineer at UCLA pursuing both my Master's and Bachelor's degrees. My drive comes from solving complex, heavily-constrained physical puzzles—from optimizing thermal and fluid systems to designing large-scale mechanical construction infrastructure.
+                </p>
+                <p class="narrative-text mt-1">
+                    I've previously gained extensive industry experience across disciplines, recently working at <strong>Tesla</strong> where I tackled data center mechanical design and project management, as well as <strong>The Walsh Group</strong> where I optimized precision installations for commercial heavy-civil infrastructure. I've additionally co-founded my own sustainable engineering venture, <strong>SCW Landscaping</strong>.
+                </p>
+                <p class="narrative-text mt-1">
+                    Whether I'm analyzing chillers for cooling loops or tracking fluid regimes using high-speed videography, I love taking ideas from theoretical concepts to high-fidelity, real-world implementations using CAD (SolidWorks, Revit) and coding (MATLAB, Python). When I'm not in the lab, you can find me rooting for FC Barcelona, building PCs, weightlifting, or playing pickleball!
+                </p>
+
+                <div class="skills-container mt-2">
+                    <span class="pill-tag text-pill">SolidWorks</span>
+                    <span class="pill-tag text-pill">AutoCAD & Revit</span>
+                    <span class="pill-tag text-pill">Python & C++</span>
+                    <span class="pill-tag text-pill">MATLAB</span>
+                    <span class="pill-tag text-pill">Power BI</span>
+                    <span class="pill-tag text-pill">Analog Discovery 2</span>
+                    <span class="pill-tag text-pill">Arduino</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section glass-panel reveal delay-1">
+            <h2 class="section-title">Experience</h2>
+            
+            <div class="timeline-item reveal-child">
+                <div class="timeline-gallery-left">
+                    <img src="./assets/IMG_9340.jpeg" alt="Tesla Experience" class="timeline-image">
+                    <img src="./assets/IMG_9313.jpeg" alt="Tesla Experience" class="timeline-image">
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <div class="timeline-header-left">
+                            <img src="https://logo.clearbit.com/tesla.com" alt="Tesla Logo" class="company-logo" onerror="this.style.display='none'">
+                            <h3>Mechanical Design Intern & PM Intern</h3>
+                        </div>
+                    </div>
+                    <div class="timeline-subheader">
+                        <h4>Tesla</h4>
+                        <span class="date">Sep 2025 - Nov 2025 | Austin, TX</span>
+                    </div>
+                    <p class="narrative-text mt-1">
+                        During my time at Tesla, I dove deep into the Cortex 1.0/2.0 systems by executing critical P&ID redlining using AutoCAD and Revit to ensure zero-defect integration with BIM modelers. On the hardware validation side, I took ownership of analyzing massive chilled water systems for data center cooling loops, heavily weighing long-term scalability and fatigue limits to select the ideal centralized CDU. To keep operations on schedule, I spearheaded data tracking by building automated Excel and Power BI dashboards from scratch to monitor over 70 complex work packages simultaneously, while ensuring rigorous site safety by managing LOTO procedures for critical busway infrastructure alongside fielding 50+ technical RFIs.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal-child">
+                <div class="timeline-gallery-left">
+                    <img src="./assets/IMG_5358.JPG" alt="Walsh Group Experience" class="timeline-image">
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <div class="timeline-header-left">
+                            <img src="https://logo.clearbit.com/walshgroup.com" alt="The Walsh Group Logo" class="company-logo" onerror="this.style.display='none'">
+                            <h3>Project Engineer Intern</h3>
+                        </div>
+                    </div>
+                    <div class="timeline-subheader">
+                        <h4>The Walsh Group</h4>
+                        <span class="date">Jun 2024 - Aug 2024 | San Jose, CA</span>
+                    </div>
+                    <p class="narrative-text mt-1">
+                        Acting as the eyes on the ground, I directed major lift station installations using high-precision surveying. My alignment checks directly optimized high-stakes, $10k/day crane operations. Ultimately, I crushed over 10 major design conflicts through relentless CAD analysis and RFI reviews, keeping the mechanical systems exactly on track and strictly up to rigorous QA/QC standards.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <div class="timeline-header-left">
+                            <img src="https://ui-avatars.com/api/?name=SCW&background=random&color=fff&rounded=true" alt="SCW Landscaping Logo" class="company-logo">
+                            <h3>Co-Founder</h3>
+                        </div>
+                    </div>
+                    <div class="timeline-subheader">
+                        <h4>SCW Landscaping</h4>
+                        <span class="date">May 2021 - Sep 2021 | San Jose, CA</span>
+                    </div>
+                    <p class="narrative-text mt-1">
+                        I co-founded and built a rapidly scaling service retrofitting over 1,000 high-efficiency sprinkler units across more than 100 clients. By implementing smart, WiFi-enabled controllers, we were able to save an estimated 15,000 gallons of monthly water waste, revolutionizing our clients' utility costs through sheer operational efficiency.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="projects" class="section glass-panel reveal delay-2">
+            <h2 class="section-title">Projects</h2>
+            
+            <div class="project-grid">
+                <div class="project-card reveal-child">
+                    <video class="project-image" autoplay loop muted playsinline>
+                        <source src="./assets/Speed2_Stopper_Trial3.mov" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="project-content">
+                        <h3>Vortex Shedding & Flow Scaling</h3>
+                        <div class="whw-block">
+                            <p><strong>What:</strong> An extensive empirical study validating the Strouhal-Reynolds scaling laws for fluid-structure interactions across subcritical flow regimes.</p>
+                            <p><strong>How:</strong> Using a modular wind tunnel seeded with glycerin mist, I captured free-stream velocities and von Kármán vortex shedding frequencies via 240 fps videography. I developed comprehensive MATLAB algorithms employing Fast Fourier Transform (FFT) and Autocorrelation analysis to parse grayscale video stacks and accurately extract dominant shedding frequencies.</p>
+                            <p><strong>Why:</strong> By rigorously optimizing lighting configurations and narrowing measurement Regions of Interest, I achieved extremely high signal-to-noise spectral purity—confirming the universality of the Strouhal constant (St ≈ 0.17–0.19) and demonstrating Reynolds-dependent separation migration on an airfoil.</p>
+                        </div>
+                        <div class="skills-container mt-1">
+                            <span class="pill-tag">MATLAB</span>
+                            <span class="pill-tag">Fluid Dynamics</span>
+                            <span class="pill-tag">Data Vis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card reveal-child">
+                    <div class="project-image-placeholder alt-bg-1"></div>
+                    <div class="project-content">
+                        <h3>Cryogenic Heat Transfer & DAQ</h3>
+                        <div class="whw-block">
+                            <p><strong>What:</strong> A highly precise thermodynamic study characterizing the multi-regime boiling curves of a copper sphere quenched in liquid nitrogen.</p>
+                            <p><strong>How:</strong> Approached via the lumped capacitance method. I optimized the DAQ configuration (50 Hz, 16-bit) to capture rapid thermal transients without aliasing. To extract critical heat flux from noisy numerical derivatives (dT/dt), I utilized MATLAB Simulink and applied optimized Savitzky-Golay digital filtering to successfully suppress quantization noise while flawlessly preserving transient peaks.</p>
+                            <p><strong>Why:</strong> The empirical critical heat flux values demonstrated exceptional agreement with theoretical models (133.14 kW/m² vs 133.6 kW/m²). This tight statistical repeatability completely validated the robustness of the experimental mathematical model and DAQ calibration for cryogenic applications.</p>
+                        </div>
+                        <div class="skills-container mt-1">
+                            <span class="pill-tag">Thermodynamics</span>
+                            <span class="pill-tag">DAQ 16-Bit</span>
+                            <span class="pill-tag">Hardware</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card reveal-child">
+                    <img src="./assets/Metamaterial.png" alt="Auxetic Metamaterial Lattice" class="project-image">
+                    <div class="project-content">
+                        <h3>Auxetic Metamaterials & Optical Strain Mapping</h3>
+                        <div class="whw-block">
+                            <p><strong>What:</strong> A multi-phase mechanical characterization study of auxetic TPU lattice structures, focusing on the relationship between geometric lattice design and negative Poisson's ratio (ν ≈ −0.6).</p>
+                            <p><strong>How:</strong> I first calibrated the INSTRON loading apparatus using three reference springs to isolate a high-precision force range with minimal sensor drift. I then designed optimized anti-tetrachiral lattice geometries using SolidWorks FEA to achieve a target 20% axial compression. Finally, I developed custom MATLAB scripts for full-field optical strain mapping—tracking pixel-wise deformation across video frames, generating 12×12 strain distribution matrices, and rendering color-coded deformation heat maps.</p>
+                            <p><strong>Why:</strong> The resulting heat maps and strain matrices visually and quantitatively confirmed the auxetic inward-folding behavior under compression, with localized strain values ranging from 0.00 to 1.00 across the deformation field. These findings validated that structural pod geometry—not bulk material properties—dictates the global mechanical response of metamaterials.</p>
+                        </div>
+                        <div class="skills-container mt-1">
+                            <span class="pill-tag">MATLAB</span>
+                            <span class="pill-tag">SolidWorks FEA</span>
+                            <span class="pill-tag">Metamaterials</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section reveal delay-3">
+            <h2 class="section-title" style="border: none; margin-bottom: 3rem;">Education</h2>
+            
+            <div class="education-grid" style="display: grid; grid-template-columns: 35% 60%; gap: 5%; align-items: start; position: relative;">
+                
+                <!-- Left Column: University Name -->
+                <div class="edu-school" style="position: relative; padding-left: 1.5rem;">
+                    <!-- Blue Dot -->
+                    <div style="position: absolute; left: 0; top: 8px; width: 8px; height: 8px; border-radius: 50%; background-color: var(--accent-color);"></div>
+                    <h3 style="font-family: var(--font-heading); font-size: 1.4rem; font-weight: 800; color: #222; line-height: 1.4;">
+                        University of California,<br>Los Angeles (UCLA)
+                    </h3>
+                </div>
+                
+                <!-- Right Column: Degrees (Vertically Stacked) -->
+                <div class="edu-degrees" style="display: flex; flex-direction: column; gap: 2.5rem;">
+                    
+                    <!-- MS Degree -->
+                    <div class="edu-degree">
+                        <img src="./assets/samueli-logo.png.png" alt="UCLA Samueli Logo" style="width: 100%; max-width: 280px; margin-bottom: 1.5rem; display: block; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.05));">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">
+                            <h4 style="font-size: 1.25rem; color: var(--accent-color); font-weight: 700;">M.S. Mechanical Engineering</h4>
+                            <span style="font-size: 0.95rem; color: var(--text-secondary); font-style: italic; white-space: nowrap;">June 2027</span>
+                        </div>
+                        <ul style="padding-left: 1.2rem; color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6;">
+                            <li style="margin-bottom: 0.8rem;">Specialized in Thermal and Fluid Systems (Advanced Heat Transfer, CFD, and Energy Systems).</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- BS Degree -->
+                    <div class="edu-degree">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">
+                            <h4 style="font-size: 1.25rem; color: var(--accent-color); font-weight: 700;">B.S. Mechanical Engineering</h4>
+                            <span style="font-size: 0.95rem; color: var(--text-secondary); font-style: italic; white-space: nowrap;">June 2026</span>
+                        </div>
+                        <ul style="padding-left: 1.2rem; color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6;">
+                            <li style="margin-bottom: 0.8rem;">GPA: 3.635/4.0 | Dean's List (2x) | True Bruin Distinguished Senior Award</li>
+                            <li style="margin-bottom: 0.8rem;">Technical Breadth: Electrical Engineering</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Mason Jones. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
