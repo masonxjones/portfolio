@@ -147,6 +147,10 @@ a:hover {
     border-bottom: 1px solid transparent;
 }
 
+.nav-container {
+    position: relative;
+}
+
 /* Frosted glass nav after scrolling past hero */
 .header.scrolled {
     background: rgba(255, 255, 255, 0.82);
