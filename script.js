@@ -152,4 +152,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initial pill position
     window.dispatchEvent(new Event('scroll'));
+
+    // FEATURE 5: VIDEO LOOP FAIL-SAFE
+    // Ensures videos with the 'loop' attribute actually restart if they stop
+    document.querySelectorAll('video[loop]').forEach(video => {
+        video.addEventListener('ended', () => {
+            video.play();
+        });
+    });
 });
