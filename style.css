@@ -587,10 +587,11 @@ main {
 
 .project-image {
     width: 100%;
-    height: auto;
+    height: 100%;
     max-height: 400px;
-    object-fit: cover;
+    object-fit: contain;
     display: block;
+    background: #000105; /* Deep background for contained images */
     border-bottom: 1px solid var(--glass-border);
 }
 
